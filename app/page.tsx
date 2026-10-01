@@ -148,7 +148,7 @@ export default function Home() {
           <div className="eyebrow"><span className="eyebrow-line" /> THE SOCIAL SIDE OF SOUND <span className="eyebrow-index">/ 001</span></div>
           <h1>Same songs.<br /><span className="serif-italic">New people.</span></h1>
           <p className="hero-description">You know that feeling when someone loves <em>that</em> song too? We made a place for it. Meet 2–3 people who sound like your kind of people.</p>
-          <div className="hero-buttons"><button className="pill-button pill-large" onClick={connectSpotify}><Disc3 size={20} /> Connect your music <ArrowUpRight size={19} /></button><button className="text-button" onClick={scrollToMatches}>Explore the demo <ArrowDownRight size={18} /></button></div>
+          <div className="hero-buttons"><button className="pill-button pill-large" onClick={connectSpotify}><Disc3 size={20} /> Connect with Spotify <ArrowUpRight size={19} /></button><button className="text-button" onClick={scrollToMatches}>Explore the demo <ArrowDownRight size={18} /></button></div>
           <div className="hero-note"><div className="mini-avatars"><img src={demoMembers[0].avatar} alt="" /><img src={demoMembers[1].avatar} alt="" /><img src={demoMembers[2].avatar} alt="" /></div><span>For the people who make playlists<br />instead of small talk.</span></div>
         </div>
         <div className="hero-art" aria-label="Illustration of a record sleeve and a listening connection">
